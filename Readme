@@ -1,0 +1,39 @@
+# Mars News Scraper and Mars Weather Analysis
+
+## Deliverable 1: Scrape Titles and Preview Text from Mars News
+
+### Description
+In this part of the project, Splinter and BeautifulSoup are used to scrape titles and preview text from a Mars news website. This data  gets stored in a list of dictionaries.
+
+### Code
+
+- Import Splinter and BeautifulSoup.
+- Set the path to Chrome.
+- Scrape the website and create a Beautiful Soup object.
+- Find titles and subtitles.
+- Create an empty list to store dictionaries.
+- Loop through titles and previews to create dictionaries for each news item.
+- Print the list of news items.
+- Close the browser.
+
+## Deliverable 2: Mars Weather Analysis
+
+### Description
+In this part of the project, data is scraped from a Mars weather facts website, converted into a dataframe, and analyzed. We also answer questions about the data and create visualizations.
+
+### Code
+
+- Import relevant libraries (Splinter, BeautifulSoup, pandas, matplotlib, datetime, and plotly).
+- Create an open browser.
+- Visit the Mars weather website.
+- Create a Beautiful Soup object and scrape the data.
+- Convert the data into a dataframe and manipulate it.
+- Answer questions about the data, such as the number of months, Martian days' worth of data, and average temperature and pressure by month.
+- Plot the average low temperature by month and the average pressure by month.
+- Create a line plot to visualize temperature changes over time.
+- Write the data to a CSV file.
+- Close the browser.
+
+This code performs web scraping, data analysis, and visualization related to Mars news and weather data. Make sure to install the required libraries (Splinter, BeautifulSoup, pandas, matplotlib, and plotly) before running the code.
+
+readme assistance from Chat GPT
